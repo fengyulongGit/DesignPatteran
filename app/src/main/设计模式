@@ -1,7 +1,7 @@
 1 单例模式                       singleton
 2 Builder模式                   builder
 3 原型模式                       prototype
-4 工厂方法模式
+4 工厂方法模式                    factory pattern
 5 抽象工厂模式
 6 策略模式
 7 状态模式
