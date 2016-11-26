@@ -1,7 +1,7 @@
-package com.cwoke.study.lod;
+package study.design.patteran.lod;
 
 /**
- * Created by COOLWEN on 2016/6/16.
+ * Created by fengyulong on 2016/6/16.
  */
 public class Tenant1 {
     public float roomArea;

@@ -1,9 +1,11 @@
-package com.cwoke.study.builder;
+package study.design.patteran.builder;
 
 /**
- * Created by COOLWEN on 2016/6/16.
+ * 实体
+ * Created by fengyulong on 2016/6/16.
  */
 public class MyData {
+
     private int id;
     private String num;
 
@@ -16,6 +18,6 @@ public class MyData {
     }
 
     public void setNum(String num) {
-        this.num = num + "id";
+        this.num = num + id;//特殊处理
     }
 }

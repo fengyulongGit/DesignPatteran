@@ -1,11 +1,11 @@
-package com.cwoke.study.lod;
+package study.design.patteran.lod;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 租房
- * Created by COOLWEN on 2016/6/16.
+ * 租房-更好的可扩展性
+ * Created by fengyulong on 2016/6/16.
  */
 public class Mediator1 {
     List<Room> mRooms = new ArrayList<Room>();
