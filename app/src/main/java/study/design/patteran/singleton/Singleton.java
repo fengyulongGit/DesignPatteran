@@ -14,8 +14,9 @@ public class Singleton {
     }
 
     public static Singleton getInstance() {
+        //Double check
         if (instance == null) {
-            synchronized (Singleton.class) {//保证现成安全，避免放在getInstance()进行同步索
+            synchronized (Singleton.class) {//保证线程安全，避免放在getInstance()进行同步索
                 if (instance == null) {
                     instance = new Singleton();
                 }

@@ -21,6 +21,7 @@ public class Tenant {
         }
     }
 
+    //可以拓展到用户类，实现自定义条件
     private boolean isSuitable(Room room) {
         return Math.abs(room.getPrice() - roomPrice) < diffPrice && Math.abs(room.getArea() - roomArea) < diffArea;
     }

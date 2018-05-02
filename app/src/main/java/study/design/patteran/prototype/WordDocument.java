@@ -38,6 +38,7 @@ public class WordDocument implements Cloneable {
     @Override
     protected WordDocument clone() {
         try {
+            //调研native Clone 实现代码
             WordDocument doc = (WordDocument) super.clone();
             doc.mText = this.mText;
             doc.mImages = this.mImages;//浅拷贝

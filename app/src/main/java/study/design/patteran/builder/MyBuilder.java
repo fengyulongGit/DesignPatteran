@@ -2,7 +2,7 @@ package study.design.patteran.builder;
 
 /**
  * Builder模式-自由扩展项目
- * 定义：将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不通的表示
+ * 定义：将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示
  * 使用场景：
  * 1.相同的方法，不同的执行顺序，产生不同的事件结果时。
  * 2.多个部件或者零件，都可以装配到一个对象中，但是产生的运行结果又不相同时。
@@ -31,6 +31,7 @@ public class MyBuilder {
         return this;
     }
 
+    //注意！是否支持直接Build,是否提供默认值
     public static void main(String[] args) {
         MyData d = new MyBuilder().setId(10).setNum("hc").build();
     }
